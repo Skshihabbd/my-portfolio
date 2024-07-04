@@ -127,12 +127,15 @@ const Home = () => {
             SKILL AND EXPERIENCE
           </h1>
           <ul className="text-center text-white">
-            <li className=" list-outside ">
-              html
-              <p>html</p>
+            <li className=" list-outside text-3xl my-4 space-y-6 ">
+              
+              <p>HTML5</p> 
+              <p>CSS3</p>
               <p>React.Js</p>
               <p>Node.js</p>
-              <p></p>
+              <p>Mongodb</p>
+              <p>Express.js</p>
+              <p>Javascript</p>
             </li>
           </ul>
           {/* <button onClick={()=>perSection('nav')} className="bg-green-600  z-30 hover:bg-white border-2 rounded-2xl  px-6 py-6"><IoIosArrowUp className="text-5xl " />
