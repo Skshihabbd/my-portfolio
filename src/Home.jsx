@@ -172,55 +172,54 @@ const Home = () => {
             {/* </button> */}
           </div>
         </div>
-        <div
-          id="div-2"
-          className="h-screen mb-28 bg-[url('https://i.ibb.co/56P2z6d/backt-2.png')]"
-        >
-          <h1 className="text-center text-white text-4xl md:text-5xl ">
-            SKILL AND EXPERIENCE
-          </h1>
+        <div id="div-2" className="h-screen mb-28 bg-black  ">
+          <div className="md:w-2/6  mx-auto boxbod ">
+            <h1 className="text-center bg-clip-text text-transparent  bg-gradient-to-r from-white to-red-600 text-4xl md:text-5xl bg-white  ">
+              SKILL AND EXPERIENCE
+            </h1>
+          </div>
           <ul className=" ">
-            <li className=" list-outside  bg-black w-8/12 mx-auto grid grid-cols-2 text-2xl md:text-3xl space-y-3 my-4 lg:space-y-6 ">
-              <div className="text-5xl  flex justify-center  items-center">
+            <li className=" list-outside text-3xl md:text-5xl   md:w-8/12 mx-auto grid grid-cols-2 text-2xl md:text-3xl space-y-3 my-4 lg:space-y-6 ">
+              <div className="md:text-5xl  flex justify-center  items-center">
                 <ImHtmlFive className="text-orange-600" />
                 <p className="bg-clip-text animate-brightness-pulse text-transparent  bg-gradient-to-r from-blue-500 to-purple-500">
                   HTML5
                 </p>
               </div>
 
-              <div className="text-5xl  flex justify-center  items-center">
+              <div className="md:text-5xl flex justify-center  items-center">
                 <FaCss3Alt className="text-[#254BDD]" />
                 <p className="bg-clip-text animate-brightness-pulse text-transparent  bg-gradient-to-r from-blue-500 to-purple-500">
                   CSS3
                 </p>
               </div>
 
-              <div className="text-5xl  flex justify-center  items-center">
+              <div className="md:text-5xl  flex justify-center  items-center">
                 <FaReact className="text-[#01D2F6] bg-black" />
                 <p className="bg-clip-text animate-brightness-pulse text-transparent  bg-gradient-to-r from-blue-500 to-purple-500">
                   React.Js
                 </p>
               </div>
 
-              <div className="text-5xl  flex justify-center  items-center">
+              <div className="md:text-5xl  flex justify-center  items-center">
                 <RiNodejsFill className="text-[#2D7930]" />
                 <p className="bg-clip-text animate-brightness-pulse text-transparent  bg-gradient-to-r from-blue-500 to-purple-500">
                   Node.js
                 </p>
               </div>
-              <div className="text-5xl  flex justify-center  animate-brightness-pulse items-center">
+              <div className="md:text-5xl  flex justify-center  animate-brightness-pulse items-center">
                 <SiMongodb className="text-[#108D4D]  " />
                 <p className="bg-clip-text animate-brightness-pulse text-transparent  bg-gradient-to-r from-blue-500 to-purple-500">
                   Mongodb
                 </p>
               </div>
-              <div className="flex text-5xl justify-center  items-center">
+              <div className="flex md:text-5xl justify-center  items-center">
                 <SiExpress className="text-[#E9BE0F] " />
                 <p className="bg-clip-text animate-brightness-pulse text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
                   Express.js
                 </p>
               </div>
-              <div className="flex text-5xl justify-center items-center">
+              <div className="flex md:text-5xl justify-center items-center">
                 <IoLogoJavascript className="text-[#ED7E31]" />
                 <p className="bg-clip-text animate-brightness-pulse text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
                   Javascript

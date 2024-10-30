@@ -2,11 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 
-.oswald{
+.oswald {
   font-family: "Oswald", sans-serif;
-  
- 
-  
 }
+
+/* .boxbod::before {
+  content: "";
+  background: conic-gradient(red 40deg, transparent 100deg);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+} */
