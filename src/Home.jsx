@@ -14,7 +14,7 @@ import { FaCss3Alt, FaReact } from "react-icons/fa";
 import { ImHtmlFive } from "react-icons/im";
 import { RiNodejsFill } from "react-icons/ri";
 import { SiExpress, SiMongodb } from "react-icons/si";
-import { usePDF } from 'react-to-pdf';
+import { usePDF } from "react-to-pdf";
 
 import Swal from "sweetalert2";
 const Home = () => {
@@ -41,8 +41,7 @@ const Home = () => {
     setSave(false);
   };
 
-  const { toPDF, targetRef } = usePDF({filename: 'page.pdf'});
-
+  const { toPDF, targetRef } = usePDF({ filename: "page.pdf" });
 
   const form = useRef();
 
@@ -84,16 +83,32 @@ const Home = () => {
         </ul>
         <ul className="flex flex-col py-8 md:flex-row  justify-around md:gap-16 oswald text-white">
           <li>
-            <button className=" hover:border-b-2 border-orange-500" onClick={() => perSection("div-1")}>Intro</button>
+            <button
+              className=" hover:border-b-2 border-orange-500"
+              onClick={() => perSection("div-1")}
+            >
+              Intro
+            </button>
           </li>
           <li>
-            <button className=" hover:border-b-2 border-orange-500" onClick={() => perSection("div-2")}> Skill Set</button>
+            <button
+              className=" hover:border-b-2 border-orange-500"
+              onClick={() => perSection("div-2")}
+            >
+              {" "}
+              Skill Set
+            </button>
           </li>
           <li>
-            <button className=" hover:border-b-2 border-orange-500" onClick={() => perSection("div-3")}>Project</button>
+            <button
+              className=" hover:border-b-2 border-orange-500"
+              onClick={() => perSection("div-3")}
+            >
+              Project
+            </button>
           </li>
           <li className=" hover:border-b-2 border-orange-500">
-            <button  onClick={() => perSection("div-4")}>Contact</button>
+            <button onClick={() => perSection("div-4")}>Contact</button>
           </li>
         </ul>
       </nav>
@@ -130,7 +145,7 @@ const Home = () => {
               FAILURE IS THE CONDIMENT THAT GIVES
               <span className="text-lime-500">SUCCESS</span>
             </h1>
-          
+
             <p className="text-white oswald lg:text-xl">
               Spend more time focusing on the important aspects of your
               business. Turn to McCartney HR LLC in Brooklyn, NY for HR
@@ -142,17 +157,19 @@ const Home = () => {
               // onClick={download}
               
             > */}
-               
-            <a className="bg-green-600 w-60 z-30 md:mt-3 hover:bg-white border-2 rounded-lg gap-2 md:text-xl font-semibold items-center md:px-10 flex hover:bg-opacity-25" href="https://drive.google.com/uc?export=download&id=1Bp_fQ_q7qDtzD1d7Fpibr0_sObIgIELr
-" download >
-            <IoIosArrowForward className=" m-4 text-2xl bg-slate-100 " />
-            Download CV</a>
-         
-             
-             
+
+            <a
+              className="bg-green-600 w-60 z-30 md:mt-3 hover:bg-white border-2 rounded-lg gap-2 md:text-xl font-semibold items-center md:px-10 flex hover:bg-opacity-25"
+              href="https://drive.google.com/uc?export=download&id=1Bp_fQ_q7qDtzD1d7Fpibr0_sObIgIELr
+"
+              download
+            >
+              <IoIosArrowForward className=" m-4 text-2xl bg-slate-100 " />
+              Download CV
+            </a>
+
             {/* </button> */}
           </div>
-         
         </div>
         <div
           id="div-2"
@@ -168,7 +185,6 @@ const Home = () => {
                 HTML5
               </p>
               <p className="flex justify-center items-center">
-                
                 <FaCss3Alt className="text-[#254BDD]" />
                 CSS3
               </p>
@@ -177,7 +193,6 @@ const Home = () => {
                 React.Js
               </p>
               <p className="flex justify-center items-center">
-                
                 <RiNodejsFill className="text-[#2D7930]" />
                 Node.js
               </p>
@@ -189,17 +204,22 @@ const Home = () => {
                 <SiExpress className="text-[#E9BE0F]" /> Express.js
               </p>
               <p className="flex justify-center items-center">
-                
                 <IoLogoJavascript className="text-[#ED7E31]" />
                 Javascript
               </p>
             </li>
           </ul>
 
-          <h1 className="text-white md:text-3xl text-center">ACADEMIC SKILL AND QUALIFICATION</h1> 
+          <h1 className="text-white md:text-3xl text-center">
+            ACADEMIC SKILL AND QUALIFICATION
+          </h1>
           <div className="bg-slate-400 my-3 mx-3 md:w-6/12 lg:w-4/12 md:mx-auto flex flex-col py-10 ">
-          <p className="text-black border-l-2 border-black pl-3 ml-3"><li>I  completed my B.S.C degree in Mathematics in 2024</li></p>
-          <p className="text-black border-l-2 border-black pl-3 ml-3"><li>I  completed  MERN Stack Web App Bootcamp in 2024</li></p>
+            <p className="text-black border-l-2 border-black pl-3 ml-3">
+              <li>I completed my B.S.C degree in Mathematics in 2024</li>
+            </p>
+            <p className="text-black border-l-2 border-black pl-3 ml-3">
+              <li>I completed MERN Stack Web App Bootcamp in 2024</li>
+            </p>
           </div>
         </div>
         <div
@@ -209,52 +229,108 @@ const Home = () => {
           <h1 className="text-center text-white text-5xl mb-10 ">
             BEST PROJECT I HAVE DONE
           </h1>
-        
-        
+
           <div className="container mx-auto grid lg:grid-cols-2 gap-3 pb-10 ">
-            <div className=" w-10/12 border-2 mx-auto "> 
-            <img className="md:h-[400px] p-4 " src="https://i.ibb.co/2SpkzLP/assignment-10.png" alt="" /> 
-            <p className="text-white text-2xl font-bold p-4 ">Arts And Craft </p>
-            <p className="text-white p-4 ">this is a ecommerc website .this website sell arts and craft related product</p>
-            <div className="flex justify-between text-white px-4 my-3">
-           
-            <a target="_blank" href="https://github.com/programming-hero-web-course-4/B9A10-client-side-Skshihabbd">Github Client</a>
-            <a target="_blank" href="https://github.com/programming-hero-web-course-4/b9a10-server-side-Skshihabbd">Github server</a>
-            <a target="_blank" href="https://polite-salamander-337cb4.netlify.app/">Live site</a>
+            <div className=" w-10/12 border-2 mx-auto ">
+              <img
+                className="md:h-[400px] p-4 "
+                src="https://i.ibb.co/2SpkzLP/assignment-10.png"
+                alt=""
+              />
+              <p className="text-white text-2xl font-bold p-4 ">
+                Arts And Craft{" "}
+              </p>
+              <p className="text-white p-4 ">
+                this is a ecommerc website .this website sell arts and craft
+                related product
+              </p>
+              <div className="flex justify-between text-white px-4 my-3">
+                <a
+                  target="_blank"
+                  href="https://github.com/programming-hero-web-course-4/B9A10-client-side-Skshihabbd"
+                >
+                  Github Client
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/programming-hero-web-course-4/b9a10-server-side-Skshihabbd"
+                >
+                  Github server
+                </a>
+                <a
+                  target="_blank"
+                  href="https://polite-salamander-337cb4.netlify.app/"
+                >
+                  Live site
+                </a>
+              </div>
             </div>
-            
+
+            <div className=" w-10/12 border-2 mx-auto ">
+              <img
+                className="md:h-[400px] p-4 "
+                src="https://i.ibb.co/TvRf7ck/assignment-11.png"
+                alt=""
+              />
+              <p className="text-white text-2xl font-bold p-4 ">
+                Multi-Task Service Hub Website{" "}
+              </p>
+              <p className="text-white p-4 ">
+                This is B2B service transfer website in market place
+              </p>
+              <div className="flex justify-between text-white px-4 my-3">
+                <a
+                  target="_blank"
+                  href="https://github.com/Skshihabbd/Service-Hub-client"
+                >
+                  Github Client
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/Skshihabbd/Service-Hub-server"
+                >
+                  Github server
+                </a>
+                <a target="_blank" href="https://service-hub-18eff.web.app/">
+                  Live site
+                </a>
+              </div>
             </div>
-            
-            <div className=" w-10/12 border-2 mx-auto "> 
-            <img className="md:h-[400px] p-4 " src="https://i.ibb.co/TvRf7ck/assignment-11.png" alt="" /> 
-            <p className="text-white text-2xl font-bold p-4 ">Multi-Task Service Hub Website  </p>
-            <p className="text-white p-4 ">This is B2B service transfer website in market place</p>
-            <div className="flex justify-between text-white px-4 my-3">
-           
-            <a target="_blank" href="https://github.com/Skshihabbd/Service-Hub-client">Github Client</a>
-            <a target="_blank" href="https://github.com/Skshihabbd/Service-Hub-server">Github server</a>
-            <a target="_blank" href="https://service-hub-18eff.web.app/">Live site</a>
+
+            <div className=" w-10/12 border-2 mx-auto ">
+              <img
+                className="md:h-[400px] p-4 "
+                src="https://i.ibb.co/92gySLW/assignment-12.png"
+                alt=""
+              />
+              <p className="text-white text-2xl font-bold p-4 ">
+                Micro Task Platform{" "}
+              </p>
+              <p className="text-white p-4 ">
+                This is a Online Microtasking Earning platform Web App
+              </p>
+              <div className="flex justify-between text-white px-4 my-3">
+                <a
+                  target="_blank"
+                  href="https://github.com/programming-hero-web-course1/b9a12-client-side-Skshihabbd"
+                >
+                  Github Client
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/programming-hero-web-course1/b9a12-client-side-Skshihabbd"
+                >
+                  Github server
+                </a>
+                <a
+                  target="_blank"
+                  href="https://zesty-choux-845819.netlify.app/"
+                >
+                  Live site
+                </a>
+              </div>
             </div>
-            
-            </div>
-            
-            <div className=" w-10/12 border-2 mx-auto "> 
-            <img className="md:h-[400px] p-4 " src="https://i.ibb.co/92gySLW/assignment-12.png" alt="" /> 
-            <p className="text-white text-2xl font-bold p-4 ">Micro Task Platform </p>
-            <p className="text-white p-4 ">This is a Online Microtasking Earning platform Web App</p>
-            <div className="flex justify-between text-white px-4 my-3">
-           
-            <a target="_blank" href="https://github.com/programming-hero-web-course1/b9a12-client-side-Skshihabbd">Github Client</a>
-            <a target="_blank" href="https://github.com/programming-hero-web-course1/b9a12-client-side-Skshihabbd">Github server</a>
-            <a target="_blank" href="https://zesty-choux-845819.netlify.app/">Live site</a>
-            </div>
-            
-            </div>
-            
-            
-            
           </div>
-        
         </div>
         <div
           id="div-4"
@@ -337,7 +413,7 @@ const Home = () => {
           </a>
         </div>
         <p className="text-white text-center py-6 bg-black mt-6">
-         Copyrights © 2024 Theme Junction. All Rights Reserved.
+          Copyrights © 2024 Theme Junction. All Rights Reserved.
         </p>
       </footer>
 
