@@ -1,4 +1,5 @@
-import shihab from "../src/assets/56b2f22d-ac37-4238-80c6-774e2f1a3370.jfif";
+import shihab from "../src/assets/mern-stack.jpg";
+import shihab1 from "../src/assets/shihab123.jpg";
 import {
   IoIosArrowForward,
   IoIosArrowUp,
@@ -74,32 +75,31 @@ const Home = () => {
     <div className="bg-slate-900">
       <nav
         id="nav"
-        className="flex mb-10  justify-between lg:pl-16 lg:pr-56   bg-black items-center"
+        className="flex mb-28 border-2 border-black  justify-between lg:pl-16 lg:pr-56   bg-black items-center"
       >
         <ul>
           <h1 className="text-transparent oswald bg-clip-text  lg:text-4xl font-bold bg-gradient-to-r from-green-600 to-yellow-500">
             SK SHIHAB
           </h1>
         </ul>
-        <ul className="flex flex-col py-8 md:flex-row  justify-around md:gap-16 oswald text-white">
-          <li>
+        <ul className="flex  flex-col py-8 md:flex-row  justify-around md:gap-16 oswald text-white">
+          <li className="h-6">
             <button
-              className=" hover:border-b-2 border-orange-500"
+              className="    hover:border-b-2 hover:border-orange-500"
               onClick={() => perSection("div-1")}
             >
               Intro
             </button>
           </li>
-          <li>
+          <li className="h-6">
             <button
               className=" hover:border-b-2 border-orange-500"
               onClick={() => perSection("div-2")}
             >
-              {" "}
               Skill Set
             </button>
           </li>
-          <li>
+          <li className="h-6">
             <button
               className=" hover:border-b-2 border-orange-500"
               onClick={() => perSection("div-3")}
@@ -107,40 +107,41 @@ const Home = () => {
               Project
             </button>
           </li>
-          <li className=" hover:border-b-2 border-orange-500">
+          <li className=" h-6 hover:border-b-2 border-orange-500">
             <button onClick={() => perSection("div-4")}>Contact</button>
           </li>
         </ul>
       </nav>
 
       <div>
-        <div className="h-screen my-28  flex flex-col md:flex-row-reverse justify-center items-center bg-[url('https://i.ibb.co/4gVqZ8z/image-2024-07-04-121630038.png')]">
-          <div className=" md:w-4/12">
-            <img
-              className="h-[60vh]  md:h-[60vh]  lg:w-72"
-              src={shihab}
-              alt=""
-            />
+        <div className="lg:h-screen   flex gap-6 flex-col lg:flex-row justify-center items-center bg-[url('https://i.ibb.co/4gVqZ8z/image-2024-07-04-121630038.png')]">
+          <div className="  lg:w-6/12 2xl:w-6/12  ">
+            <img className="border-2 rounded-lg  " src={shihab} alt="" />
           </div>
-          <div className=" md:w-5/12 ">
+          <div className=" lg:w-5/12 2xl:w-4/12 ">
             <h1 className="text-white lg:text-5xl lg:font-bold mb-6 ">
-              <span className="text-lime-500">IMAGINATION</span> IS MORE
-              IMPORTANT THAN KNOWLEDGE
+              <span className="text-lime-500">HI</span> I AM SK SHIHAB <br />I
+              AM A MERN STACK DEVELOPER
             </h1>
             <p className="text-white oswald lg:text-xl lg:border-l-4 border-lime-500 lg:pl-3">
-              together we single people achieve more than any single person
-              could ever do alone
+              I am a highly motivated programmer with a deep passion for the
+              tech industry.My next goal is to establish myself as a full-stack
+              creative developer,combining technical proficiency with Innovative
+              design to deliver comprehensive digital solution.In pursuing a
+              junior frontend developer position, my aim to contribute
+              innovative solutions and foster user-friendly interfaces for
+              enhanced digital experiences.
             </p>
           </div>
         </div>
         <div
           id="div-1"
-          className="md:h-screen md:gap-3 my-28 flex flex-col md:flex-row justify-start justify-center items-center bg-[url('https://i.ibb.co/4gVqZ8z/image-2024-07-04-121630038.png')]"
+          className="md:h-screen gap-6 my-28 flex flex-col lg:flex-row justify-start justify-center items-center bg-[url('https://i.ibb.co/4gVqZ8z/image-2024-07-04-121630038.png')]"
         >
-          <div className="md:w-4/12">
-            <img className="h-[60vh] md:h-[60vh] md:w-72" src={shihab} alt="" />
+          <div className="lg:w-6/12 2xl:w-6/12">
+            <img className="border-2 rounded-lg" src={shihab1} alt="" />
           </div>
-          <div className="md:w-5/12 ">
+          <div className="lg:w-5/12 2xl:w-4/12 ">
             <h1 className="text-white lg:text-5xl lg:font-bold mb-6 ">
               FAILURE IS THE CONDIMENT THAT GIVES
               <span className="text-lime-500">SUCCESS</span>
@@ -160,12 +161,12 @@ const Home = () => {
 
             <a
               className="bg-green-600 w-60 z-30 md:mt-3 hover:bg-white border-2 rounded-lg gap-2 md:text-xl font-semibold items-center md:px-10 flex hover:bg-opacity-25"
-              href="https://drive.google.com/uc?export=download&id=1Bp_fQ_q7qDtzD1d7Fpibr0_sObIgIELr
+              href="https://drive.google.com/uc?export=download&id=1pl5OUwCRBHn55eNS6N9MRkucAwXwIc-r
 "
               download
             >
               <IoIosArrowForward className=" m-4 text-2xl bg-slate-100 " />
-              Download CV
+              Download Resume
             </a>
 
             {/* </button> */}
@@ -178,35 +179,53 @@ const Home = () => {
           <h1 className="text-center text-white text-4xl md:text-5xl ">
             SKILL AND EXPERIENCE
           </h1>
-          <ul className=" text-white">
-            <li className=" list-outside grid grid-cols-2 text-2xl md:text-3xl space-y-3 my-4 lg:space-y-6 ">
-              <p className="flex justify-center items-center">
+          <ul className=" ">
+            <li className=" list-outside  bg-black w-8/12 mx-auto grid grid-cols-2 text-2xl md:text-3xl space-y-3 my-4 lg:space-y-6 ">
+              <div className="text-5xl  flex justify-center  items-center">
                 <ImHtmlFive className="text-orange-600" />
-                HTML5
-              </p>
-              <p className="flex justify-center items-center">
+                <p className="bg-clip-text animate-brightness-pulse text-transparent  bg-gradient-to-r from-blue-500 to-purple-500">
+                  HTML5
+                </p>
+              </div>
+
+              <div className="text-5xl  flex justify-center  items-center">
                 <FaCss3Alt className="text-[#254BDD]" />
-                CSS3
-              </p>
-              <p className="flex justify-center items-center">
+                <p className="bg-clip-text animate-brightness-pulse text-transparent  bg-gradient-to-r from-blue-500 to-purple-500">
+                  CSS3
+                </p>
+              </div>
+
+              <div className="text-5xl  flex justify-center  items-center">
                 <FaReact className="text-[#01D2F6] bg-black" />
-                React.Js
-              </p>
-              <p className="flex justify-center items-center">
+                <p className="bg-clip-text animate-brightness-pulse text-transparent  bg-gradient-to-r from-blue-500 to-purple-500">
+                  React.Js
+                </p>
+              </div>
+
+              <div className="text-5xl  flex justify-center  items-center">
                 <RiNodejsFill className="text-[#2D7930]" />
-                Node.js
-              </p>
-              <p className="flex justify-center items-center">
-                <SiMongodb className="text-[#108D4D]" />
-                Mongodb
-              </p>
-              <p className="flex justify-center items-center">
-                <SiExpress className="text-[#E9BE0F]" /> Express.js
-              </p>
-              <p className="flex justify-center items-center">
+                <p className="bg-clip-text animate-brightness-pulse text-transparent  bg-gradient-to-r from-blue-500 to-purple-500">
+                  Node.js
+                </p>
+              </div>
+              <div className="text-5xl  flex justify-center  animate-brightness-pulse items-center">
+                <SiMongodb className="text-[#108D4D]  " />
+                <p className="bg-clip-text animate-brightness-pulse text-transparent  bg-gradient-to-r from-blue-500 to-purple-500">
+                  Mongodb
+                </p>
+              </div>
+              <div className="flex text-5xl justify-center  items-center">
+                <SiExpress className="text-[#E9BE0F] " />
+                <p className="bg-clip-text animate-brightness-pulse text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+                  Express.js
+                </p>
+              </div>
+              <div className="flex text-5xl justify-center items-center">
                 <IoLogoJavascript className="text-[#ED7E31]" />
-                Javascript
-              </p>
+                <p className="bg-clip-text animate-brightness-pulse text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+                  Javascript
+                </p>
+              </div>
             </li>
           </ul>
 
