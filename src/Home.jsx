@@ -51,7 +51,7 @@ const Home = () => {
 
     emailjs
       .sendForm("service_qiq0tq8", "template_uf9dpbp", form.current, {
-        publicKey: "6YQEd1gmPWypB-x5_ ",
+        publicKey: "Ik1urwOoBber1RPaK",
       })
       .then(
         () => {
