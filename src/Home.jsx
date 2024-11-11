@@ -154,22 +154,17 @@ const Home = () => {
               online HR systems that can be customized depending on your
               business needs.
             </p>
-            {/* <button
-              // onClick={download}
-              
-            > */}
 
             <a
               className="bg-green-600 w-60 z-30 md:mt-3 hover:bg-white border-2 rounded-lg gap-2 md:text-xl font-semibold items-center md:px-10 flex hover:bg-opacity-25"
-              href="https://drive.google.com/uc?export=download&id=1pl5OUwCRBHn55eNS6N9MRkucAwXwIc-r
+              href="https://drive.google.com/uc?export=download&id=1G5PBtjT3XiqZKer1wmwJW4wK_bczQfFQ
+
 "
               download
             >
               <IoIosArrowForward className=" m-4 text-2xl bg-slate-100 " />
               Download Resume
             </a>
-
-            {/* </button> */}
           </div>
         </div>
         <div id="div-2" className="h-screen mb-28 bg-black  ">
