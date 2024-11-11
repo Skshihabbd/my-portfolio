@@ -370,6 +370,7 @@ const Home = () => {
                 <input
                   name="user_name"
                   id="name"
+                  required
                   type="text"
                   placeholder=""
                   className="w-full p-3 rounded bg-gray-800"
@@ -380,6 +381,7 @@ const Home = () => {
                   Email
                 </label>
                 <input
+                  required
                   name="user_email"
                   id="email"
                   type="email"
@@ -391,6 +393,7 @@ const Home = () => {
                   Message
                 </label>
                 <textarea
+                  required
                   name="message"
                   id="message"
                   rows="3"
