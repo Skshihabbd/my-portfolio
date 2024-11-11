@@ -256,7 +256,7 @@ const Home = () => {
                 alt=""
               />
               <p className="text-white text-2xl font-bold p-4 ">
-                Arts And Craft{" "}
+                Arts And Craft
               </p>
               <p className="text-white p-4 ">
                 this is a ecommerc website .this website sell arts and craft
@@ -291,7 +291,7 @@ const Home = () => {
                 alt=""
               />
               <p className="text-white text-2xl font-bold p-4 ">
-                Multi-Task Service Hub Website{" "}
+                Multi-Task Service Hub Website
               </p>
               <p className="text-white p-4 ">
                 This is B2B service transfer website in market place
@@ -322,7 +322,7 @@ const Home = () => {
                 alt=""
               />
               <p className="text-white text-2xl font-bold p-4 ">
-                Micro Task Platform{" "}
+                Micro Task Platform
               </p>
               <p className="text-white p-4 ">
                 This is a Online Microtasking Earning platform Web App
@@ -340,10 +340,7 @@ const Home = () => {
                 >
                   Github server
                 </a>
-                <a
-                  target="_blank"
-                  href="https://zesty-choux-845819.netlify.app/"
-                >
+                <a target="_blank" href="https://microtask-client.vercel.app/">
                   Live site
                 </a>
               </div>
